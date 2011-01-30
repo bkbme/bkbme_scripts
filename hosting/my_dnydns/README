@@ -1,0 +1,7 @@
+The aim of this is creating your own dyndns type service in a crude way using Plesk Panel.
+
+You have to use your server as primary dns server for the domain you want to use.
+
+The interface of update.php is according to the dyndns protocol, so use can use the standard tools like ddclient to update the dns entry.
+
+- bkb
