@@ -1,0 +1,18 @@
+#
+#  mod_rewrite in use
+#
+
+RewriteEngine On
+
+#  Uncomment following line if your webserver's URL
+#  is not directly related to physival file paths.
+#  Update YourRootDirectory (just / for root)
+
+# RewriteBase /YourRootDirectory
+
+#
+#  Rules
+#
+
+RewriteRule (create|update)(/.*)? update.php
+
